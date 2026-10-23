@@ -23,3 +23,5 @@ def load_data(file_path: str | Path) -> pd.DataFrame:
     except Exception as e:
         print(f"Failed to load data from {path.name}: {e}")
         raise
+
+    return df
